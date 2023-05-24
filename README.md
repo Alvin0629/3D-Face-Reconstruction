@@ -24,7 +24,7 @@ pip install -r requirement.txt
 # Face landmark detection
 <div align=center><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/RedAndGreen.png" width="420" height="200"/><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Picture1_crop.jpg" width="345" height="265"/></div>
 
-## Running a pre-trained model
+## For inference
 1. Download landmark pre-trained model at [GoogleDrive](https://drive.google.com/file/d/1tDqX2nG1qATqrd2fEb4Sgs4av25d9tgN/view?usp=sharing), and put it into ```FaceLandmark/model/```
 2. Run the test file
 
@@ -36,7 +36,7 @@ python Facial_landmark.py
 # Face 3D reconstruction
 <div align=center><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Stirling ESRC 3D.png" width="420" height="190"/><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Facescape%20face.png" width="420" height="190"/></div>
 
-## Running a pre-trained model
+## For inference
 1. Download face 3D reconstruction pre-trained model at [GoogleDrive](https://drive.google.com/file/d/1t-3IXQHn5DmXpoumf5a8JfQgWxg54krW/view?usp=sharing), and put it into ```FaceReconstruction/checkpoints/```
 
 3. Run the ```inference.py``` file to generate disparity map
