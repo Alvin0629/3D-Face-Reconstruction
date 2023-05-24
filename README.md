@@ -1,5 +1,7 @@
 # (ACMMM 2021 Oral Paper) Deep SfM Face Reconstruction Based on Massive Landmark Bundle Adjustment
-This repository shows two tasks: Face landmark detection and Face 3D reconstruction, which is described in this paper: Deep Unsupervised 3D SfM Face Reconstruction Based on Massive Landmark Bundle Adjustment. This work can be cited as:
+This repository shows two tasks: Face landmark detection and Face 3D reconstruction.
+
+They are described in this paper: Deep Unsupervised 3D SfM Face Reconstruction Based on Massive Landmark Bundle Adjustment. This work can be cited as:
 
 ```
 @inproceedings{wang2021deep,
@@ -20,7 +22,7 @@ pip install -r requirement.txt
 ```
 
 # Face landmark detection
-<div align=center><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/RedAndGreen.png" width="345" height="265"/><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Picture1_crop.jpg" width="345" height="265"/></div>
+<div align=center><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/RedAndGreen.png" width="420" height="200"/><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Picture1_crop.jpg" width="345" height="265"/></div>
 
 ## Running a pre-trained model
 1. Download landmark pre-trained model at [GoogleDrive](https://drive.google.com/file/d/1tDqX2nG1qATqrd2fEb4Sgs4av25d9tgN/view?usp=sharing), and put it into ```FaceLandmark/model/```
@@ -32,7 +34,7 @@ python Facial_landmark.py
 
 
 # Face 3D reconstruction
-<div align=center><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Stirling ESRC 3D.png" width="380" height="265"/><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Facescape%20face.png" width="380" height="265"/></div>
+<div align=center><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Stirling ESRC 3D.png" width="420" height="190"/><img src="https://github.com/BoomStarcuc/3DSfMFaceReconstruction/blob/master/data/Facescape%20face.png" width="420" height="190"/></div>
 
 ## Running a pre-trained model
 1. Download face 3D reconstruction pre-trained model at [GoogleDrive](https://drive.google.com/file/d/1t-3IXQHn5DmXpoumf5a8JfQgWxg54krW/view?usp=sharing), and put it into ```FaceReconstruction/checkpoints/```
